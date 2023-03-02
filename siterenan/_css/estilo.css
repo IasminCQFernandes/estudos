@@ -1,0 +1,460 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/Raleway-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: 'Fontefrase';
+    src: url("../_fonts/Labrada-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family:'fontsobre' ;
+    src: url(../_fonts/Raleway-VariableFont_wght.ttf);
+}  
+
+@font-face {
+    font-family:'titulo' ;
+    src: url(../_fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}  
+@font-face {
+    font-family:'input' ;
+    src: url(../_fonts/RobotoCondensed-LightItalic.ttf);
+} 
+@font-face {
+    font-family:'form' ;
+    src: url(../_fonts/Montserrat-LightItalic.ttf);
+} 
+
+body{
+    
+    background-color: #111111;
+    color:white;
+}
+p{
+text-align: justify;
+text-indent: 30px;	
+}
+
+div#interface {
+    width:auto;
+    margin:auto;
+    box-shadow:auto rgba(252, 255, 252, 0.5) ;
+    padding: 15px;
+}
+
+/*linha cabeçalho*/
+header#cabecalho{
+border-bottom: 1px red solid;
+height: 120px;
+}
+
+header#cabecalho h1{
+     font-family: 'FonteLogo', sans-serif;
+     text-shadow: 1px 1px 1px red;
+     padding: 0px;
+     margin-top: 15px;
+}
+header#cabecalho h4{
+    font-family: 'Fontefrase', sans-serif;
+    padding: 0px;
+    margin: 10px;
+}
+
+/*assinatura*/
+figure.assinatura {
+position: relative;
+}
+
+figure.assinatura img {
+position: absolute;
+left: 365px;
+top:-90px;
+width: 30px;
+height: 30px;
+}
+
+/*icon*/
+figure.icon {
+    position: relative;
+}
+figure.icon img {
+    position: absolute;
+    left: auto;
+    top: -10px;
+    }
+img.imgicon{
+    display: block;
+    float: right;
+}
+
+/*foto renan*/
+figure.renanp {
+    position: relative;
+}
+
+figure.renanp img{
+    position: absolute;
+    left: 970px;
+    top: -350px;
+    width:auto;
+    height:auto;
+    border: 2px inset white;
+    box-shadow: 1px 1px 2px #b1c4c2;
+    
+}
+
+figure.renanp figcaption{
+    position: absolute;
+    color: white;
+    top: -55px;
+    left: 1060px;
+    transition: opacity 1s;
+}
+
+figure.renanp:hover figcaption{
+    opacity: 1;
+}
+
+/*menu*/
+
+nav#Menu {
+    display: block;
+}
+nav#Menu ul{
+    list-style-type: none;
+    text-transform: uppercase;
+    position: absolute;
+    top:-20px;
+    left:665px;
+ }
+
+nav#Menu li {
+    display: inline-block;
+    background-color:#F00D0D;
+    padding: 10px; 
+    margin: 2px;
+    transition: background-color .4s;
+ }
+
+nav#Menu li:hover {
+    background-color: #920D0D;
+ }
+
+nav#Menu  h1{
+    display: none;
+ }
+
+nav#Menu a{
+    color: white;
+    text-decoration: none; 
+ }
+
+
+nav#Menu a:hover {
+    color: black;
+}
+
+nav#Projetos a{
+    text-decoration: red;
+    color: white;
+}
+figure.behance {
+    position: relative;
+}
+
+figure.behance img {
+    position: absolute;
+    left: 160px;
+    top: -40px;
+    margin:0px;
+    padding: 0px;
+}
+
+/*POSTAGENS*/
+ul#postagem{
+    width: 1400px;
+    margin: 10px;
+    padding: 30px;
+    overflow: hidden;
+    list-style: none;
+}
+ul#postagem li{
+    text-align: right;
+    float:left;
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    border: 1px solid red;
+    box-shadow: 2px 2px 3px gray;  
+    -webkit-transition: all 0.2s ease-in;
+}
+ul#postagem li#p1 {
+     background: url('../images/1.jpg') no-repeat;
+     background-position: 50% 50%;
+     background-size:1080px 1080px;
+     background-color: white;
+}
+ul#postagem li#p1:hover{
+    background-position: 0px 0px; 
+    background-size: 180px 180px;
+}
+ul#postagem li#p2 {
+    background: url('../images/6.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size:1080px 1080px;
+    background-color: white;
+}
+ul#postagem li#p2:hover{
+    background-position: 0px 0px; 
+    background-size: 180px 180px;
+}
+ul#postagem li#p3 {
+    background: url('../images/2.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size:1080px 1080px;
+    background-color: white;
+}
+ul#postagem li#p3:hover{
+    background-position: 0px 0px; 
+    background-size: 180px 180px;
+}
+ul#postagem li#p4 {
+    background: url('../images/3.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size:1080px 1080px;
+    background-color: white;
+}
+ul#postagem li#p4:hover{
+    background-position: 0px 0px; 
+    background-size: 180px 180px;
+}
+ul#postagem li#p5 {
+    background: url('../images/4.png') no-repeat;
+    background-position: 50% 50%;
+    background-size:1080px 1080px;
+    background-color: white;
+}ul#postagem li#p5:hover{
+    background-position: 0px 0px; 
+    background-size: 180px 180px;
+}
+ul#postagem li#p6 {
+    background: url('../images/5.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size:1080px 1080px;
+    background-color: white;
+}
+ul#postagem li#p6:hover{
+    background-position: 0px 0px; 
+    background-size: 180px 180px;
+}
+ul#postagem li#p7 {
+    background: url('../images/7.jpeg') no-repeat;
+    background-position: 50% 50%;
+    background-size:1080px 1080px;
+    background-color: white;
+}
+ul#postagem li#p7:hover{
+   background-position: 0px 0px; 
+   background-size: 180px 180px;
+}
+ul#postagem li#p8 {
+    background: url('../images/8.jpeg') no-repeat;
+    background-position: 50% 50%;
+    background-size:1080px 1080px;
+    background-color: white;
+}
+ul#postagem li#p8:hover{
+   background-position: 0px 0px; 
+   background-size: 180px 180px;
+}
+ul#postagem li#p9 {
+    background: url('../images/9.jpeg') no-repeat;
+    background-position: 50% 50%;
+    background-size:1080px 1080px;
+    background-color: white;
+}
+ul#postagem li#p9:hover{
+   background-position: 0px 0px; 
+   background-size: 180px 180px;
+}
+ul#postagem li#p10 {
+    background: url('../images/10.jpeg') no-repeat;
+    background-position: 50% 50%;
+    background-size:1080px 1080px;
+    background-color: white;
+}
+ul#postagem li#p10:hover{
+   background-position: 0px 0px; 
+   background-size: 180px 180px;
+}
+ul#postagem li#p11 {
+    background: url('../images/11.jpeg') no-repeat;
+    background-position: 50% 50%;
+    background-size:1080px 1080px;
+    background-color: white;
+}
+ul#postagem li#p11:hover{
+   background-position: 0px 0px; 
+   background-size: 180px 180px;
+}
+ul#postagem li#p12 {
+    background: url('../images/12.jpeg') no-repeat;
+    background-position: 50% 50%;
+    background-size:1080px 1080px;
+    background-color: white;
+}
+ul#postagem li#p12:hover{
+   background-position: 0px 0px; 
+   background-size: 180px 180px;
+}
+ul#postagem li:hover{
+    -webkit-transform: scale(1.5);
+
+}
+ul#postagem li span{
+     opacity: 0;
+     color: white;
+     text-shadow: 1px 1px 1px black;
+     background-color: rgba(252, 255, 252, 0.1);
+     font-size: 4pt;
+     line-height: 340px;
+     padding: 5px;
+}
+ul#postagem li:hover span {
+    opacity: 0.4;
+}
+nav#Projetos h3 {
+    text-align: right;
+}
+
+nav#RedesSociais a{
+    text-decoration: red;
+    color: white;
+}
+figure.instagram {
+    position: relative;
+}
+
+figure.instagram img {
+    position: absolute;
+    left: 55px;
+    top: 60px;
+    margin:0px;
+    padding: 0px;
+}
+
+nav#Contatos a{
+    margin-bottom: 15px;
+    text-decoration: red;
+    color: white;
+}
+
+figure.whatsapp {
+    position: relative;
+}
+
+figure.whatsapp img {
+    position: absolute;
+    left: 40px;
+    top: 55px;
+    margin:0px;
+    padding: 0px;
+}
+
+/*rodape*/
+
+footer#rodape a{
+    text-decoration: none;
+    color:white;
+}
+footer#rodape{
+    margin-top: 15px;
+    clear: both;
+    border-top: 1px solid red;
+}
+footer#rodape p{
+   text-align: center;
+   text-decoration: none;
+   color: white;
+}
+
+/*fontes*/
+
+nav#Sobre{
+  font-family:'fontesobre', sans-serif;
+}
+nav#Sobre span{
+    font-family:'titulo', sans-serif;
+    font-size: 25pt;
+  }
+
+nav#Atuação {
+    font-family:'fontesobre', sans-serif;
+}
+nav#Atuação span{
+    font-family:'titulo', sans-serif;
+    font-size: 25pt;
+}
+nav#Atuação h4{
+    font-family:'fontesobre', sans-serif;
+    font-size: 15pt;
+}
+
+nav#Projetos {
+    font-family:'fontesobre', sans-serif;
+}
+nav#Projetos span{
+    font-family:'titulo', sans-serif;
+    font-size: 25pt;
+}
+
+nav#RedesSociais{
+    font-family:'fontesobre', sans-serif;
+}
+nav#RedesSociais span{
+    font-family:'titulo', sans-serif;
+    font-size: 25pt;
+}
+
+nav#Contatos{
+    font-family:'fontesobre', sans-serif;
+}
+nav#Contatos span{
+    font-family:'titulo', sans-serif;
+    font-size: 25pt;
+}
+nav#Contatos h3{
+font-family: 'form',serif;
+text-align: center;
+}
+
+/*FORMULARIO*/
+form{
+    text-align: justify;
+    width: 500px;
+    margin: auto;
+}
+ input{
+    font-family:'input', serif;
+    font-weight: normal;
+    font-size:10pt;
+ }
+ input:hover{
+    background-color: rgba(148, 140, 140, 0.397);
+ }
+ legend{
+    color: white;
+    font-weight: inherit;
+    font-family:'form',serif ;
+ }
+ fieldset{
+    border-color:rgba(255, 3, 3, 0.562) ;
+    margin:10px ;
+ }
+ fieldset#usuario{
+    background: url("../images/icons8-user-100.png") no-repeat 95% 40%;
+ }
+ fieldset#endereco{
+    background: url("../images/icons8-location-80.png") no-repeat 95% 50%;
+ }
